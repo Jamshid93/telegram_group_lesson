@@ -1,2 +1,4 @@
+import json 
 f=open("result.json").read()
-print(f)
+data=json.loads(f)
+print(data['name'])
